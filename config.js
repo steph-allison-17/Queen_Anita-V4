@@ -41,13 +41,13 @@ global.autoreact = process.env.AUTO_REACT === 'false';
 
 global.WELCOME = process.env.WELCOME === 'false';
 
-global.prefix = process.env.PREFIX || '_';
+global.prefix = process.env.PREFIX || '.';
 
 global.autobio = process.env.AUTO_BIO === 'true';
 
 global.ANTICALL = process.env.ANTICALL === 'true';
 
-global.antilink = process.env.ANTILINK === 'falss';
+global.antilink = process.env.ANTILINK === 'false';
 global.antilinkkick = process.env.ANTILINK_KICK === 'false';
 global.antilinkwarn = process.env.ANTILINK_WARN === 'true';
 
